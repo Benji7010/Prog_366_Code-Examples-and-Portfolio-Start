@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\ProgIII-2025\\Prog_405_Code-Examples-and-Portfolio-Start\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_405_Code-Examples-and-Portfolio-Start.csproj|c:\\users\\benji\\documents\\visual studio 2022\\progiii-2025\\prog_405_code-examples-and-portfolio-start\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_405_Code-Examples-and-Portfolio-Start.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\ProgIII-2025\\Prog_405_Code-Examples-and-Portfolio-Start\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\ProgIII-2025\\Prog_405_Code-Examples-and-Portfolio-Start\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAwAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T14:53:54.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
