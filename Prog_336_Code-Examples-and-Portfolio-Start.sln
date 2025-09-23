@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_405_Code-Examples-and-Portfolio-Start", "Prog_405_Code-Examples-and-Portfolio-Start.csproj", "{79D93D64-45A4-4F97-89BE-99A569F65E2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_336_Code-Examples-and-Portfolio-Start", "Prog_336_Code-Examples-and-Portfolio-Start.csproj", "{79D93D64-45A4-4F97-89BE-99A569F65E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
