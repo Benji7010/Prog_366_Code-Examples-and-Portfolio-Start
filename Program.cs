@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 
 namespace Prog_405_Code_Examples_and_Portfolio_Start
@@ -116,7 +117,9 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
                     }
                 }
             }
+
             
+
             return amount;
         }
     }
