@@ -1,7 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_336_Code-Examples-and-Portfolio-Start.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_336_Code-Examples-and-Portfolio-Start.csproj|solutionrelative:linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benji\\AppData\\Local\\Temp\\Rar$DIa20712.18292.rartemp\\DemoIterator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_336_Code-Examples-and-Portfolio-Start.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_336_Code-Examples-and-Portfolio-Start.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_336_Code-Examples-and-Portfolio-Start.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Prog_336_Code-Examples-and-Portfolio-Start.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +25,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DemoIterator1.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\AppData\\Local\\Temp\\Rar$DIa20712.18292.rartemp\\DemoIterator1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa20712.18292.rartemp\\DemoIterator1.cs",
+              "ToolTip": "C:\\Users\\benji\\AppData\\Local\\Temp\\Rar$DIa20712.18292.rartemp\\DemoIterator1.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa20712.18292.rartemp\\DemoIterator1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T20:44:06.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkList.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\LinkList.cs",
+              "RelativeDocumentMoniker": "LinkList.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\LinkList.cs",
+              "RelativeToolTip": "LinkList.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:49:59.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-23T21:01:06.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T14:53:54.112Z",
+              "EditorCaption": ""
             }
           ]
         }

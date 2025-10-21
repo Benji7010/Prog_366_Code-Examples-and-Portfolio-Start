@@ -22,36 +22,65 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
     public class Iterator<T> : IIterator<T>
     {
         LinkedList<T> List { get; set; }
+        public int Count { get; set; }
+        private Node<T> CurrentNode { get; set; }
 
         public Iterator(LinkedList<T> list)
         {
             List = list;
-        }
-        
-        public bool HasNext()
-        {
-            throw new NotImplementedException();
+            Count = 0;
+            CurrentNode = List.FirstNode;
         }
 
-        public T Next()
+        public bool HasNext()
         {
-            
+            if (CurrentNode.Next != null) 
+                return true;
+            return false;
+        }
+
+        public T? Next()
+        {
+            CurrentNode = CurrentNode.Next;
+            Count++;
+            return CurrentNode.Value;
         }
     }
 
     public class LinkedList<T>
     {
-        Node<T>? FirstNode { get; set; }
-
+        internal Node<T>? FirstNode { get; set; }
+        
         //Add a node to the front of list.
-        public void Shove(T data)
+        public void AddFirst(T data)
         {
             FirstNode = new Node<T> { Value = data, Next = FirstNode };
         }
 
+        //Remove node at the front of the list.
+        public void RemoveFirst()
+        {
+            FirstNode = FirstNode.Next;
+        }
+        
+        public void AddLast(T data)
+        {
+            LastNode.Next = new Node<T> { Value = data, Next = null };
+            LastNode = LastNode.Next;
+        }
+
+        public void RemoveLast()
+        {
+
+        }
+
+        //Finds Node At Element.
         public T ElementAt(int index)
         {
-            throw new NotImplementedException();
+            for(int i = 0; i <= index; i++)
+            {
+
+            }
         }
     }
 }
