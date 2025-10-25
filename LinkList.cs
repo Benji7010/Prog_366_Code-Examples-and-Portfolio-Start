@@ -91,6 +91,12 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         }
     }
 
+    //Ran out of time to start creating proper stacks and queues rather than a multi-function class.
+    public interface ILinkedListImp
+    {
+
+    }
+
     public class BenjiLinkedList<T>
     {
         internal Node<T>? FirstNode { get; set; }
