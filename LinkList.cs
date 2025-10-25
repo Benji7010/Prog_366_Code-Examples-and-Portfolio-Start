@@ -9,7 +9,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
 {
     internal class Node<T>
     {
-        public T Value { get; set; }
+        public T? Value { get; set; }
         public Node<T>? Next { get; set; }
 
         public Node(T value)
@@ -20,14 +20,22 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
 
     public interface IIterator<T>
     {
+        /// <summary>
+        /// Iterate to the next value and return it.
+        /// </summary>
+        /// <returns></returns>
         public T? NextValue();
 
+        /// <summary>
+        /// Does the list have another value?
+        /// </summary>
+        /// <returns></returns>
         public bool HasNext();
     }
 
     public class Iterator<T> : IIterator<T>
     {
-        LinkedList<T> List { get; set; }
+        BenjiLinkedList<T> List { get; set; }
         public int Count { get; private set; }
         internal Node<T>? CurrentNode { get; set; }
         public T? GetCurrentValue
@@ -36,6 +44,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
             {
                 if (CurrentNode == null)
                 {
+                    //TODO: Change it from returning a possible value to null or something similar.
                     return default(T?);
                 }
                 return CurrentNode.Value;
@@ -51,7 +60,6 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
             }
         }
         
-        //Iterate to the next value and return it.
         public T? NextValue()
         {
             if (CurrentNode != null)
@@ -67,7 +75,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
             return default(T);
         }
 
-        public Iterator(LinkedList<T> list)
+        public Iterator(BenjiLinkedList<T> list)
         {
             List = list;
             Count = 0;
@@ -83,14 +91,15 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         }
     }
 
-    public class LinkedList<T>
+    public class BenjiLinkedList<T>
     {
         internal Node<T>? FirstNode { get; set; }
 
         //Add a node to the front of list.
         public void AddFirst(T data)
         {
-            FirstNode = new Node<T>(data) {Next = FirstNode };
+            Node<T>? oldFirst = FirstNode;
+            FirstNode = new Node<T>(data) {Next = oldFirst };
         }
 
         //Remove node at the front of the list.
@@ -140,6 +149,34 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
                 iterator.NextValue();
             }
             iterator.CurrentNode = previousNode;
+        }
+
+        /// <summary>
+        /// Returns an array of the linked list.
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public T[]? GetArray()
+        {
+            //TODO: Replace this dumb solution.
+            T[] arr = new T[1];
+            if (FirstNode == null)
+            {
+                return null;
+            }
+            Iterator<T> it = new Iterator<T>(this);
+            arr[0] = it.CurrentNode.Value;
+            for (uint i = 1; it.HasNext(); i++)
+            {
+                T[] arr2 = new T[1 + i];
+                for (uint j = 0; j < arr.Length; j++)
+                {
+                    arr2[j] = arr[j];
+                }
+                arr = arr2;
+                arr[i] = it.NextValue();
+            }
+            return arr;
         }
     }
 }
