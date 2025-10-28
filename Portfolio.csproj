@@ -8,4 +8,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="HanoiTower\**" />
+    <Compile Remove="TestProject3\**" />
+    <EmbeddedResource Remove="HanoiTower\**" />
+    <EmbeddedResource Remove="TestProject3\**" />
+    <None Remove="HanoiTower\**" />
+    <None Remove="TestProject3\**" />
+  </ItemGroup>
+
 </Project>
