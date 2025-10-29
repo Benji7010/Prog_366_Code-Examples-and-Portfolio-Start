@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Portfolio.csproj" />
+    <ProjectReference Include="..\Portfolio\Portfolio.csproj" />
   </ItemGroup>
 
   <ItemGroup>

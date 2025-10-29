@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\hanoitower\\towerprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|solutionrelative:hanoitower\\towerprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\hanoitower\\hanoitower.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|solutionrelative:hanoitower\\hanoitower.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9255BF4E-9C08-6BDD-A8E2-A9D794697774}|TestProject3\\TestProject3.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\testproject3\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9255BF4E-9C08-6BDD-A8E2-A9D794697774}|TestProject3\\TestProject3.csproj|solutionrelative:testproject3\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Portfolio.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Portfolio.csproj|solutionrelative:linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{79D93D64-45A4-4F97-89BE-99A569F65E2A}|Portfolio.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Portfolio\\Program.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Program.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Portfolio\\Program.cs",
+              "RelativeToolTip": "Portfolio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T18:13:38.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HanoiTower",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\HanoiTower\\HanoiTower.csproj",
+              "RelativeDocumentMoniker": "HanoiTower\\HanoiTower.csproj",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\HanoiTower\\HanoiTower.csproj",
+              "RelativeToolTip": "HanoiTower\\HanoiTower.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T18:12:08.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\TestProject3\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject3\\UnitTest1.cs",
@@ -46,12 +68,11 @@
               "RelativeToolTip": "TestProject3\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:50:49.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T22:50:49.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TowerProgram.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\HanoiTower\\TowerProgram.cs",
               "RelativeDocumentMoniker": "HanoiTower\\TowerProgram.cs",
@@ -60,45 +81,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T22:41:50.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-28T22:32:17.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LinkList.cs",
-              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\LinkList.cs",
-              "RelativeDocumentMoniker": "LinkList.cs",
-              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\LinkList.cs",
-              "RelativeToolTip": "LinkList.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAcwF0AAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:49:59.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-23T21:01:06.556Z",
               "EditorCaption": ""
             }
           ]
