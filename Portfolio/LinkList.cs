@@ -35,7 +35,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
 
     public class Iterator<T> : IIterator<T>
     {
-        BenjiLinkedList<T> List { get; set; }
+        IBJIList<T> List { get; set; }
         public int Count { get; private set; }
         internal Node<T>? CurrentNode { get; set; }
         public T? GetCurrentValue
@@ -82,6 +82,13 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
             CurrentNode = List.FirstNode;
         }
 
+        public Iterator(IBJIList<T> list)
+        {
+            List = list;
+            Count = 0;
+            CurrentNode = List.FirstNode;
+        }
+
         //Is there another node after the current?
         public bool HasNext()
         {
@@ -91,29 +98,90 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         }
     }
 
-    //Ran out of time to start creating proper stacks and queues rather than a multi-function class.
-    public interface ILinkedListImp
+    public interface IBJIList<T>
     {
-
+        internal Node<T>? FirstNode { get; }
     }
 
-    public class BenjiLinkedList<T>
+    public interface IStack<T>
+    {
+        /// <summary>
+        /// Adds a node to the front of the stack.
+        /// </summary>
+        /// <param name="data"></param>
+        public void AddFirst(T data);
+
+        /// <summary>
+        /// Remove node at the end of the list.
+        /// </summary>
+        public void RemoveFirst();
+    }
+
+    public interface IQueue<T>
+    {
+        /// <summary>
+        /// Adds a node to the front of the stack.
+        /// </summary>
+        /// <param name="data"></param>
+        public void AddFirst(T data);
+
+        /// <summary>
+        /// Remove node at the front of the list.
+        /// </summary>
+        public void RemoveLast();
+    }
+
+    public abstract class BJIList<T> : IBJIList<T>
     {
         internal Node<T>? FirstNode { get; set; }
 
-        //Add a node to the front of list.
+        Node<T>? IBJIList<T>.FirstNode => FirstNode;
+
         public void AddFirst(T data)
         {
             Node<T>? oldFirst = FirstNode;
-            FirstNode = new Node<T>(data) {Next = oldFirst };
+            FirstNode = new Node<T>(data) { Next = oldFirst };
         }
+    }
 
-        //Remove node at the front of the list.
+    public class BJIStack<T> : BJIList<T>, IStack<T>
+    {
+        /// <summary>
+        /// Remove node at the front of the list.
+        /// </summary>
         public void RemoveFirst()
         {
-            if (FirstNode != null)  
+            if (FirstNode != null)
                 FirstNode = FirstNode.Next;
         }
+    }
+
+    public class BJIQueue<T> : BJIList<T>, IQueue<T> 
+    {
+        /// <summary>
+        /// Remove last node from the list.
+        /// </summary>
+        public void RemoveLast()
+        {
+            if (FirstNode == null)
+            {
+                FirstNode = FirstNode.Next;
+                return;
+            }
+            Iterator<T> iterator = new Iterator<T>(this);
+            Node<T>? previousNode = null;
+            while (iterator.CurrentNode.Next != null)
+            {
+                previousNode = iterator.CurrentNode;
+                iterator.NextValue();
+            }
+            iterator.CurrentNode = previousNode;
+        }
+    }
+
+
+    public class BenjiLinkedList<T> : BJIStack<T>, IQueue<T>
+    {
         
         //Add node to the end of the list.
         public void AddLast(T data)

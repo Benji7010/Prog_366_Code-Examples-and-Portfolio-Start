@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\portfolio\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{18643D2E-56BD-477E-B840-69F9AC758661}|DataStructures\\DataStructures.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18643D2E-56BD-477E-B840-69F9AC758661}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\hanoitower\\towerprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|solutionrelative:hanoitower\\towerprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC99B6CF-7487-424C-C24C-9DE6F8334FFD}|HanoiTower\\HanoiTower.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\hanoitower\\hanoitower.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\DataStructures\\Program.cs",
+              "RelativeDocumentMoniker": "DataStructures\\Program.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\DataStructures\\Program.cs",
+              "RelativeToolTip": "DataStructures\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T00:45:23.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LinkList.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Portfolio\\LinkList.cs",
               "RelativeDocumentMoniker": "Portfolio\\LinkList.cs",
               "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Portfolio\\LinkList.cs",
               "RelativeToolTip": "Portfolio\\LinkList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T18:15:29.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Portfolio\\Program.cs",
               "RelativeDocumentMoniker": "Portfolio\\Program.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HanoiTower.csproj",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\HanoiTower\\HanoiTower.csproj",
               "RelativeDocumentMoniker": "HanoiTower\\HanoiTower.csproj",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\TestProject3\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject3\\UnitTest1.cs",
@@ -94,7 +111,7 @@
               "RelativeDocumentMoniker": "HanoiTower\\TowerProgram.cs",
               "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\HanoiTower\\TowerProgram.cs",
               "RelativeToolTip": "HanoiTower\\TowerProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T22:41:50.82Z",
               "EditorCaption": ""
