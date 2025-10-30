@@ -28,7 +28,7 @@ namespace DataStructures
                 Console.WriteLine("Out of bounds as expected.");
             }
 
-            //A list of elements. Elements can be added and removed from the start of the list.
+            //A list of elements. Elements can be added and removed from the start of the list. O(1)
             //Big O for linked lists depends on secific stucture, but find a element at an index one way is typically O(n).
             IStack<int> intsStack = new BJIStack<int>();
             for (int i = 0; i < list.Count(); i++)
@@ -46,13 +46,13 @@ namespace DataStructures
                 Console.WriteLine("Nope");
             }
 
-                //A list of elements. Elements can be added to the front and removed from the back of the list.
-                IQueue<int> intsQueue = new BJIQueue<int>();
+            //A list of elements. Elements can be added to the front and removed from the back of the list.
+            IQueue<int> intsQueue = new BJIQueue<int>();
             for (int i = 0; i < list.Count(); i++)
             {
                 intsQueue.AddFirst(list.ElementAt(i));
             }
-            //Bad implimentation. Should be adding to the end of the list to make removing from queue O(1).
+            //Bad implimentation. O(n) Should be adding to the end of the list to make removing from queue O(1).
             intsQueue.RemoveLast();
             it = new Iterator<int>(intsQueue);
             while (it.HasNext())
@@ -69,7 +69,7 @@ namespace DataStructures
             }
 
 
-            //Unordered list of key and value pairs. Easy to find each value by it's key.
+            //Unordered list of key and value pairs. Easy to find each value by it's key. O(log(n))
             Dictionary<int, int> dict = new Dictionary<int, int>();
             for (int i = 0; i < list.Count(); i++)
             {
@@ -77,8 +77,9 @@ namespace DataStructures
             }
             Console.WriteLine(dict.ElementAt(89));
 
-            //Like a dictionary, but the keys are pre-set with a hash function. Needs rules for dealing with hash collisions.
-            //Much safer from collisions when there is enough room.
+            //Like a dictionary, but the keys are pre-set with a hash function. Needs rules for dealing with hash collisions. 
+            //Much safer from collisions when there is enough room. O(1)
+            //Assuming the HastSet is a HashMap. Looks a lot like one though.
             HashSet<int> numbers = new HashSet<int>(list.Count());
             for (int i = 0; i < list.Count(); i++)
             {
