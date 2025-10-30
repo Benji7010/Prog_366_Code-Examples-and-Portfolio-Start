@@ -103,7 +103,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         internal Node<T>? FirstNode { get; }
     }
 
-    public interface IStack<T>
+    public interface IStack<T> : IBJIList<T>
     {
         /// <summary>
         /// Adds a node to the front of the stack.
@@ -117,7 +117,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         public void RemoveFirst();
     }
 
-    public interface IQueue<T>
+    public interface IQueue<T> : IBJIList<T>
     {
         /// <summary>
         /// Adds a node to the front of the stack.
@@ -159,7 +159,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
     public class BJIQueue<T> : BJIList<T>, IQueue<T> 
     {
         /// <summary>
-        /// Remove last node from the list.
+        /// Remove last node from the list. Probably should be reworked to have a field for the last element.
         /// </summary>
         public void RemoveLast()
         {
