@@ -67,6 +67,34 @@ namespace TestProject1
             Assert.Equal(new int[] { 1, 2, 3, 4, 5, 6 }, arr);
         }
 
+        [Fact]
+        public void BJIStackTest()
+        {
+            BJIStack<int> q = new BJIStack<int>();
+            for (int i = 1; i < 6; i++)
+            {
+                q.AddFirst(i);
+            }
+            for (int i = 5; i > 0; i--)
+            {
+                Assert.Equal(i, q.RemoveFirst());
+            }
+        }
+
+        [Fact]
+        public void BJIQueueTest()
+        {
+            BJIQueue<int> q = new BJIQueue<int>();
+            for (int i = 1; i < 6; i++)
+            {
+                q.AddFirst(i);
+            }
+            for (int i = 1; i < 6; i++)
+            {
+                Assert.Equal(i, q.RemoveLast());
+            }
+        }
+
         //[Fact]
         //public void RemoveToNull()
         //{

@@ -114,7 +114,8 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         /// <summary>
         /// Remove node at the end of the list.
         /// </summary>
-        public void RemoveFirst();
+        public T? RemoveFirst();
+        //Well, I haven't used them yet :)
     }
 
     public interface IQueue<T> : IBJIList<T>
@@ -126,9 +127,9 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         public void AddFirst(T data);
 
         /// <summary>
-        /// Remove node at the front of the list.
+        /// Remove node at the back of the list.
         /// </summary>
-        public void RemoveLast();
+        public T? RemoveLast();
     }
 
     public abstract class BJIList<T> : IBJIList<T>
@@ -137,7 +138,7 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
 
         Node<T>? IBJIList<T>.FirstNode => FirstNode;
 
-        public void AddFirst(T data)
+        public virtual void AddFirst(T data)
         {
             Node<T>? oldFirst = FirstNode;
             FirstNode = new Node<T>(data) { Next = oldFirst };
@@ -149,33 +150,50 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         /// <summary>
         /// Remove node at the front of the list.
         /// </summary>
-        public void RemoveFirst()
+        public T? RemoveFirst()
         {
             if (FirstNode != null)
+            {
+                T? val = FirstNode.Value;
                 FirstNode = FirstNode.Next;
+                return val;
+            }
+            return default(T);
         }
     }
 
     public class BJIQueue<T> : BJIList<T>, IQueue<T> 
     {
-        /// <summary>
-        /// Remove last node from the list. Probably should be reworked to have a field for the last element.
-        /// </summary>
-        public void RemoveLast()
+        internal Node<T>? LastNode { get; set; }
+        
+        //Only now realising that the stacks and queses shouldn't be useable like that data stuctures. Whoops. 
+        //Should have included a linked list in the class instead and give functions to allow the use of it.
+        public override void AddFirst(T data)
         {
-            if (FirstNode == null)
+            if(FirstNode != null)
             {
+                FirstNode.Next = new Node<T>(data) { Next = null };
                 FirstNode = FirstNode.Next;
-                return;
             }
-            Iterator<T> iterator = new Iterator<T>(this);
-            Node<T>? previousNode = null;
-            while (iterator.CurrentNode.Next != null)
+            else
             {
-                previousNode = iterator.CurrentNode;
-                iterator.NextValue();
+                FirstNode = new Node<T>(data) { Next = null };
+                LastNode = FirstNode;
             }
-            iterator.CurrentNode = previousNode;
+        }
+
+        /// <summary>
+        /// Remove last node from the list.
+        /// </summary>
+        public T? RemoveLast()
+        {
+            if(LastNode != null)
+            {
+                T? val = LastNode.Value;
+                LastNode = LastNode.Next;
+                return val;
+            }
+            return default(T);
         }
     }
 
@@ -208,12 +226,12 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
         }
 
         //Remove last node from the list.
-        public void RemoveLast()
+        public T? RemoveLast()
         {
             if (FirstNode == null)
             {
                 RemoveFirst();
-                return;
+                return default(T);
             }
             Iterator<T> iterator = new Iterator<T>(this);
             Node<T>? previousNode = null;
@@ -222,7 +240,9 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
                 previousNode = iterator.CurrentNode;
                 iterator.NextValue();
             }
+            T val = iterator.CurrentNode.Value;
             iterator.CurrentNode = previousNode;
+            return val;
         }
 
         /// <summary>
