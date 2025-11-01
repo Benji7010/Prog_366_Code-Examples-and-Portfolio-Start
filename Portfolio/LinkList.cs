@@ -89,7 +89,10 @@ namespace Prog_405_Code_Examples_and_Portfolio_Start
             CurrentNode = List.FirstNode;
         }
 
-        //Is there another node after the current?
+        /// <summary>
+        /// Is there another node after the current?
+        /// </summary>
+        /// <returns></returns>
         public bool HasNext()
         {
             if (CurrentNode != null && CurrentNode.Next != null) 

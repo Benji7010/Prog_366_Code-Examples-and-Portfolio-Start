@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio", "Portfolio\Port
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{18643D2E-56BD-477E-B840-69F9AC758661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fib", "Fib\Fib.csproj", "{C3AF43D0-4664-4ABA-A446-4348CB317D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{18643D2E-56BD-477E-B840-69F9AC758661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18643D2E-56BD-477E-B840-69F9AC758661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18643D2E-56BD-477E-B840-69F9AC758661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AF43D0-4664-4ABA-A446-4348CB317D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AF43D0-4664-4ABA-A446-4348CB317D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AF43D0-4664-4ABA-A446-4348CB317D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AF43D0-4664-4ABA-A446-4348CB317D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
