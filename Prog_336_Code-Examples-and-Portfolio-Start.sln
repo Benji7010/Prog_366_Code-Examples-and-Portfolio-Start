@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fib", "Fib\Fib.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingDemo", "SortingDemo\SortingDemo.csproj", "{DC58921C-58CA-4767-BF7C-FB9988355586}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueLib", "PriorityQueueLib\PriorityQueueLib.csproj", "{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DC58921C-58CA-4767-BF7C-FB9988355586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC58921C-58CA-4767-BF7C-FB9988355586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC58921C-58CA-4767-BF7C-FB9988355586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

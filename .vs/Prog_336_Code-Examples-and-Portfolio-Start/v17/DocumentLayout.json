@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}|PriorityQueueLib\\PriorityQueueLib.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\priorityqueuelib\\maxpqtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}|PriorityQueueLib\\PriorityQueueLib.csproj|solutionrelative:priorityqueuelib\\maxpqtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}|PriorityQueueLib\\PriorityQueueLib.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\priorityqueuelib\\maxpqarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CDA17A8-2C28-46B4-B555-BEAEC3AD2EBD}|PriorityQueueLib\\PriorityQueueLib.csproj|solutionrelative:priorityqueuelib\\maxpqarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|solutionrelative:sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,32 +46,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaxPQTree.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\PriorityQueueLib\\MaxPQTree.cs",
+              "RelativeDocumentMoniker": "PriorityQueueLib\\MaxPQTree.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\PriorityQueueLib\\MaxPQTree.cs",
+              "RelativeToolTip": "PriorityQueueLib\\MaxPQTree.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:00:49.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "MaxPQArray.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\PriorityQueueLib\\MaxPQArray.cs",
+              "RelativeDocumentMoniker": "PriorityQueueLib\\MaxPQArray.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\PriorityQueueLib\\MaxPQArray.cs",
+              "RelativeToolTip": "PriorityQueueLib\\MaxPQArray.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwCYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T01:11:21.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\SortingDemo\\Program.cs",
               "RelativeDocumentMoniker": "SortingDemo\\Program.cs",
               "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\SortingDemo\\Program.cs",
               "RelativeToolTip": "SortingDemo\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T00:04:40.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Fib\\Program.cs",
               "RelativeDocumentMoniker": "Fib\\Program.cs",
@@ -71,12 +101,11 @@
               "RelativeToolTip": "Fib\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wAkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T04:01:36.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T04:01:36.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TowerProgram.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\HanoiTower\\TowerProgram.cs",
               "RelativeDocumentMoniker": "HanoiTower\\TowerProgram.cs",
@@ -88,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\DataStructures\\Program.cs",
               "RelativeDocumentMoniker": "DataStructures\\Program.cs",
@@ -96,12 +125,11 @@
               "RelativeToolTip": "DataStructures\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T03:14:23.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T03:14:23.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\TestProject3\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject3\\UnitTest1.cs",
@@ -113,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "LinkList.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\Portfolio\\LinkList.cs",
               "RelativeDocumentMoniker": "Portfolio\\LinkList.cs",
@@ -125,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -133,8 +161,11 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-11-01T01:40:24.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T01:40:24.747Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
