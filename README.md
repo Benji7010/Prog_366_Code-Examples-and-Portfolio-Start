@@ -10,3 +10,5 @@ Nothing much, but have some idea of how the stuctures work. I also added proper 
 Fib. Good fib. Also made Stack and Queue better.
 ## Sort
 Sorting algorithms and the sort.
+## Search
+Added Search algos to the sorting project! Now you can search and sort, but not a library. :P
