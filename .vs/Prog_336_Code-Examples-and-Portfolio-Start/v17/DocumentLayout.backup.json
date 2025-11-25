@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|solutionrelative:sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9ADB632-03EB-42FB-9CE0-30E26C39FD4A}|MazeSolving\\MazeSolving.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\mazesolving\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9ADB632-03EB-42FB-9CE0-30E26C39FD4A}|MazeSolving\\MazeSolving.csproj|solutionrelative:mazesolving\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -24,11 +28,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\SortingDemo\\Program.cs",
+              "RelativeDocumentMoniker": "SortingDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\SortingDemo\\Program.cs",
+              "RelativeToolTip": "SortingDemo\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wN0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T22:28:57.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\MazeSolving\\Program.cs",
               "RelativeDocumentMoniker": "MazeSolving\\Program.cs",
               "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\MazeSolving\\Program.cs",
               "RelativeToolTip": "MazeSolving\\Program.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAwwL0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAAMIAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T22:03:50.766Z",
               "EditorCaption": ""
