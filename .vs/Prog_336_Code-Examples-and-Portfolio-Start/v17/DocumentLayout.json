@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA66182B-C5C6-4975-A13F-CB78BBE96DC2}|GraphLib\\GraphLib.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\graphlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA66182B-C5C6-4975-A13F-CB78BBE96DC2}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA66182B-C5C6-4975-A13F-CB78BBE96DC2}|GraphLib\\GraphLib.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\graphlib\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA66182B-C5C6-4975-A13F-CB78BBE96DC2}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\portfolio\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,19 +40,20 @@
               "RelativeDocumentMoniker": "Portfolio\\LinkList.cs",
               "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\Portfolio\\LinkList.cs",
               "RelativeToolTip": "Portfolio\\LinkList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wBgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T22:07:49.788Z"
+              "WhenOpened": "2025-12-09T22:07:49.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\GraphLib\\Class1.cs",
-              "RelativeDocumentMoniker": "GraphLib\\Class1.cs",
-              "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\GraphLib\\Class1.cs",
-              "RelativeToolTip": "GraphLib\\Class1.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAFAAAAAAAAAA==",
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\GraphLib\\Graph.cs",
+              "RelativeDocumentMoniker": "GraphLib\\Graph.cs",
+              "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\GraphLib\\Graph.cs",
+              "RelativeToolTip": "GraphLib\\Graph.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T22:03:36.625Z",
               "EditorCaption": ""
