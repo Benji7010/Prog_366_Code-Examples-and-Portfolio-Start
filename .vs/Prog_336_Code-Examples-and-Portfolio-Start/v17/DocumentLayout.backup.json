@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\",
+  "WorkspaceRootPath": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|solutionrelative:sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA66182B-C5C6-4975-A13F-CB78BBE96DC2}|GraphLib\\GraphLib.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\graphlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA66182B-C5C6-4975-A13F-CB78BBE96DC2}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9ADB632-03EB-42FB-9CE0-30E26C39FD4A}|MazeSolving\\MazeSolving.csproj|c:\\users\\benji\\documents\\visual studio 2022\\prog_336\\mazesolving\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9ADB632-03EB-42FB-9CE0-30E26C39FD4A}|MazeSolving\\MazeSolving.csproj|solutionrelative:mazesolving\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\portfolio\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18643D2E-56BD-477E-B840-69F9AC758661}|DataStructures\\DataStructures.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18643D2E-56BD-477E-B840-69F9AC758661}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|c:\\users\\385421\\documents\\prog_366_code-examples-and-portfolio-start\\sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC58921C-58CA-4767-BF7C-FB9988355586}|SortingDemo\\SortingDemo.csproj|solutionrelative:sortingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkList.cs",
+              "DocumentMoniker": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\Portfolio\\LinkList.cs",
+              "RelativeDocumentMoniker": "Portfolio\\LinkList.cs",
+              "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\Portfolio\\LinkList.cs",
+              "RelativeToolTip": "Portfolio\\LinkList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T22:07:49.788Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -27,27 +48,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\SortingDemo\\Program.cs",
-              "RelativeDocumentMoniker": "SortingDemo\\Program.cs",
-              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\SortingDemo\\Program.cs",
-              "RelativeToolTip": "SortingDemo\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wN0AAAAbAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\GraphLib\\Class1.cs",
+              "RelativeDocumentMoniker": "GraphLib\\Class1.cs",
+              "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\GraphLib\\Class1.cs",
+              "RelativeToolTip": "GraphLib\\Class1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:28:57.315Z",
+              "WhenOpened": "2025-12-09T22:03:36.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\MazeSolving\\Program.cs",
-              "RelativeDocumentMoniker": "MazeSolving\\Program.cs",
-              "ToolTip": "C:\\Users\\benji\\Documents\\Visual Studio 2022\\Prog_336\\MazeSolving\\Program.cs",
-              "RelativeToolTip": "MazeSolving\\Program.cs",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAAAMIAAABnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\SortingDemo\\Program.cs",
+              "RelativeDocumentMoniker": "SortingDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\SortingDemo\\Program.cs",
+              "RelativeToolTip": "SortingDemo\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T22:03:50.766Z",
+              "WhenOpened": "2025-11-11T22:32:06.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\DataStructures\\Program.cs",
+              "RelativeDocumentMoniker": "DataStructures\\Program.cs",
+              "ToolTip": "C:\\Users\\385421\\Documents\\Prog_366_Code-Examples-and-Portfolio-Start\\DataStructures\\Program.cs",
+              "RelativeToolTip": "DataStructures\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T21:30:52.88Z",
               "EditorCaption": ""
             }
           ]
